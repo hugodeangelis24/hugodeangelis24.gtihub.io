@@ -1,0 +1,54 @@
+#col_izq{
+background-color: cornflowerblue;
+}
+
+
+#Encabezado{
+    border: 0px ;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Gajraj One', sans-serif;
+      color:black;
+    background-color: cornflowerblue;
+    font-size: 80px;
+    padding-left: 0px;
+}
+
+#descripción{
+    background-color: lightgray;
+}
+
+#estudios{
+background-color: dimgray;
+}
+
+#experiencia{
+background-color: lightgray;
+}
+
+h2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+text-align: center;
+}
+
+h4{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 1px 
+
+}
+
+#contacto{
+   background-color: grey; 
+   padding: 2px;
+      
+}

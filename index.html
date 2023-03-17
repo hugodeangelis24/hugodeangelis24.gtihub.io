@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo_cv.css" />
+  </head>
+<body>
+   
+    <script src="JS/funcion.js"></script>
+    
+     <div class="container">
+        <div class="row">
+            <div class="col-3" id="col_izq">  
+                <div style="text-align: center;">
+                     <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="imagen del postulante" width="220" height="220" />
+                </div>
+                
+                <div class="row"><h2>Datos Personales</h2></div>
+                <div class="container text-left">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row"><h4>Nacimiento</h4></div>
+                            <div class="row"><span>3/1/1983</span></div> 
+                            <div class="row"><h4>Edad</h4></div>
+                            <div class="row"><span>40 Años</span></div> 
+                            <div class="row"><h4>Dirección</h4></div>
+                            <div class="row"><span>336 Mockingbird Hill</span></div> 
+                            <div class="row"><h4>Ciudad</h4></div>
+                            <div class="row"><span>Billings</span></div>
+                            <div class="row"><h4>Estado</h4></div>
+                            <div class="row"><span>Michigan</span></div>
+                            <div class="row"><h4>País</h4></div>
+                            <div class="row"><span>Estados Unidos</span></div>
+                            <div class="row"><h4>Mail</h4></div>
+                            <div class="row"><span>gordon.russell@example.com</span></div>
+                            <div class="row"><h4>Teléfono</h4></div>
+                            <div class="row"><span>(559) 703-8167</span></div>
+                        </div>
+                    </div> 
+                </div>  
+            </div>     
+            
+            <div class="col-9" id="col_der">
+                <div class="container text-center" id="Encabezado">
+                    <Encabezado>
+                        <h1>Gordon Russell</h1>
+                    </Encabezado>
+                </div>
+                <div class="container" id="descripción">
+                    <Descripción>
+                        <h2>Breve descripción</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac nunc vel metus euismod convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mattis, tortor eu laoreet iaculis, lacus sapien pulvinar erat, quis rhoncus ligula sapien vel elit. Phasellus eget egestas quam, a lacinia ipsum. Maecenas tincidunt dapibus libero eget viverra. Mauris vitae sem a lectus molestie cursus. Aliquam a dictum sapien.</p>
+                        <p>Pellentesque nulla nibh, rutrum sed lacinia sed, porttitor nec odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at velit elementum, imperdiet libero a, consequat metus. Etiam bibendum nisi sapien. Suspendisse non leo eu mi tempus commodo. Aliquam a dolor in dolor mollis auctor. Aliquam vitae mauris imperdiet, bibendum lorem bibendum, suscipit neque. Duis posuere efficitur condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam condimentum gravida risus, vel luctus libero. Mauris dapibus nunc non facilisis pulvinar. Vivamus id dolor felis. Fusce quis nisi quam.</p>
+                    </Descripción>
+                </div>
+                <div class="container" id="estudios">
+                    <Estudios>
+                        <h2>Estudios</h2>
+                        <ul>
+                           <li>Suspendisse at quam eu felis tempor blandit.</li>
+                           <li>Nunc condimentum lorem scelerisque ipsum tincidunt, nec mollis purus pellentesque. </li>                        
+                           <li>Maecenas facilisis ex a interdum interdum.</li>
+                        </ul>
+                    </Estudios>
+                </div>
+                <div class="container" id="experiencia">
+                    <Experiencia>
+                        <h2>Experiencia</h2>
+                        <li>Phasellus ut metus placerat, auctor felis id, fringilla enim.</li>
+                        <li>Curabitur semper massa a ullamcorper posuere.</li>
+                        <li>Phasellus ut metus placerat, auctor felis id, fringilla enim.</li>
+                        <li>Curabitur semper massa a ullamcorper posuere.</li>
+                    </Experiencia>
+                </div>      
+            </div>   
+        </div>
+     </div>  
+     <div> 
+         <Pie_de_pagina>
+             <div class="container text-center" id="contacto">
+                 <h2>Contacto</h2>
+             </div>
+         <div class="container text-left" id="datoscomp">
+            <div class="row">
+                <div class="col-4" >
+                    <form  action="" method="" id="formulario" >
+                        <div class="row">
+                            <input type="text"  id="nombre" name="nombre" placeholder="Ingrese su Nombre" >
+                        </div>
+                        <div class="row">
+                            <input type="text"  id="apellido" name="apellido" placeholder="Ingrese su Apellido"  >
+                        </div>
+                        <div class="row">
+                            <input type="email"  id="email" name="email" placeholder="Ingrese su E-mail"  >
+                        </div>  
+                        <div class="row">
+                            <input type="submit" value="Enviar" id="Enviar">
+                        </div>
+                    </form>                    
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <textarea class="form" id="mensaje" rows="5" cols="col-8" placeholder="Deje su mensaje"></textarea>
+                    </div>
+                </div>
+             </div>
+         </div>
+      </Pie_de_pagina>
+</div>
+      </body>
+      </html>
+      
+</body>
+</html>
